@@ -107,4 +107,4 @@ if submit:
         st.error("Model file 'random_forest_model.pkl' tidak ditemukan. Silakan latih dan simpan model terlebih dahulu.")
 
 elif reset:
-    st.experimental_return()
+    st.rerun()
